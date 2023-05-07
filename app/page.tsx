@@ -3,7 +3,7 @@ import { Herosec } from "@/Components/Herosec";
 import Portfolio from "@/Components/Portfolio";
 import Skills from "@/Components/Skills";
 import Contact from "@/Components/Contact";
-import Footer from "@/Components/Footer";
+
 
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
      <Portfolio />
      <Skills/>
      <Contact/>
-     <Footer/>
+     
     </>
   );
 }

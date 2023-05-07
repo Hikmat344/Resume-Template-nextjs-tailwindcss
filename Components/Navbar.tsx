@@ -4,7 +4,7 @@ import {FaFacebook} from "react-icons/fa"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react";
-import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
+import {AiOutlineClose, AiOutlineMenu , AiFillMediumSquare} from "react-icons/Ai";
 import Linkedin from "./shared/Linkedin";
 import logo from "@/public/Images/logo.png"
 
@@ -17,7 +17,7 @@ const Navbar = () => {
     };
 
     return (
-      <div className="sticky top-0 w-full h-20 shadow-md shadow-white z[100] bg-white">
+      <div className="sticky top-0 w-full h-20 shadow-md shadow-white z[100] bg-red-900 text-white">
         <div className="flex sticky justify-between items-center w-full h-full px-4 2xl:px-16 py-10">
             <Link href={"#home"} >
                 <Image src = {logo} 
@@ -33,6 +33,11 @@ const Navbar = () => {
                     <a className="cursor-pointer" href={"#skills"}>
                     <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray-400">
                         Skills
+                    </li>
+                    </a>
+                    <a className="cursor-pointer" href={"#portfolio"}>
+                    <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray-400">
+                        Portfolio
                     </li>
                     </a>
                     <a className="cursor-pointer" href={"#contact"}>
@@ -70,6 +75,9 @@ const Navbar = () => {
                         <a className="cursor-pointer hover:scale-110 duration-150" onClick={handleNav} href={"#skills"}>
                             <li className="py-4 " id='Skills'>Skills</li>
                         </a>
+                        <a className="cursor-pointer hover:scale-10 duration-150" onClick={handleNav} href={"#portfolio"}>
+                            <li className="py-4 " id='Portfolio'>Portfolio</li>
+                        </a>
                         <a className="cursor-pointer hover:scale-10 duration-150" onClick={handleNav} href={"#contact"}>
                             <li className="py-4 " id='Contact'>Contact</li>
                         </a>
@@ -80,17 +88,17 @@ const Navbar = () => {
                             Let&apos;s Connect
                         </p>
                         <div className="flex justify-between items-center my-4 w-full sm:w-[80%] ">
-                            { <Linkedin url="https://www.facebook.com">
+                            { <Linkedin url="https://www.facebook.com/in/hikmat-ullah-b284081b9/">
                                 
                                  <FaLinkedin />
 
                             </Linkedin> }
-                            <Linkedin url="https://www.linkedin.com">
+                            <Linkedin url="https://www.linkedin.com/in/hikmat-ullah-b284081b9/">
 
                                 <FaFacebook /> 
 
                             </Linkedin>
-                            <Linkedin url="https://www.github.com">
+                            <Linkedin url="https://www.github.com/Hikmee/">
 
                                 <FaGithub /> 
                                 
@@ -100,9 +108,14 @@ const Navbar = () => {
                                 <FaTwitter /> 
                                 
                             </Linkedin>
-                            <Linkedin url="https://www.youtube.com">
+                            <Linkedin url="https://www.youtube.com/@hikmatullah9353">
 
                                 <FaYoutube /> 
+                                
+                            </Linkedin>
+                            <Linkedin url="https://medium.com/@khanhikmee344">
+
+                                <AiFillMediumSquare /> 
                                 
                             </Linkedin>
                         </div>

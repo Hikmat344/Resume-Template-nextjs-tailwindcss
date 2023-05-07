@@ -6,11 +6,11 @@ const Footer = () => {
   return (
     <div>
         <div className="mt-5  flex justify-around items-center bg-gray-500 rounded-t-md shadow-inner shadow-white md:flex-row sm:flex-col">
-                        <div>
-                        <p className="items-center mx-10 text-bold  uppercase tracking-widest text-[#52d69b] w-full sm:w-[100%]">
+                        {/* <div>
+                        <p className="items-center mx-10 text-bold  uppercase tracking-widest text-red-900 w-full sm:w-[100%]">
                             Let&apos;s Connect
                         </p>
-                        </div>
+                        </div> */}
 
                         <div className="flex mx-10 items-center my-5 w-full sm:w-[100%] ">
                         <div className='mx-1'>
