@@ -17,23 +17,29 @@ const Navbar = () => {
     };
 
     return (
-      <div className="sticky top-0 w-full h-20 shadow-md z[100] bg-white">
+      <div className="sticky top-0 w-full h-20 shadow-md shadow-white z[100] bg-white">
         <div className="flex sticky justify-between items-center w-full h-full px-4 2xl:px-16 py-10">
-            <Link href={"/"} >
+            <Link href={"#home"} >
                 <Image src = {logo} 
                 alt=" " width = {100} height={100} className="w-16 h-16 rounded-full bg-[#54ca95]"/>
             </Link>
             <div>
                 <ul className="hidden md:flex items-center">
+                    <a className="cursor-pointer" href={"#about"}>
                     <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray-400">
-                        <Link href={"/"}>About</Link>
+                        About
                     </li>
+                    </a>
+                    <a className="cursor-pointer" href={"#skills"}>
                     <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray-400">
-                        <Link href={"/Skills"}>Skills</Link>
+                        Skills
                     </li>
+                    </a>
+                    <a className="cursor-pointer" href={"#contact"}>
                     <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray-400">
-                        <Link href={"/Contact"}>Contact</Link>
+                        Contact
                     </li>
+                    </a>
                 </ul>
                 {/*Mobile Navbar*/}
                 <div onClick={handleNav} className="md:hidden">
@@ -49,24 +55,24 @@ const Navbar = () => {
                     <Image src = {logo} 
                     alt=" " width = {100} height={100} className="w-16 h-16 rounded-full bg-[#54ca95]"/>
                 </Link>
-                <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
+                <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 duration-150">
                     <AiOutlineClose/>
                 </div>
                 </div>
                 <div className="border-b border-gray-300 my-6">
-                    <p className="w-[90%] md:w-[95%] py-4">Hikmat Ullah | Web 3.0 & Metaverse Evangelist</p>
+                    <p className="w-[90%] md:w-[95%] py-4">Hikmat Ullah <br/> FrontEnd web developer | Web 3.0 & Metaverse Evangelist</p>
                 </div>
                 <div className="py-4 flex-col ">
                     <ul className="uppercase text-sm">
-                        <Link href={"/"}>
-                            <li className="py-4">About</li>
-                        </Link>
-                        <Link href={"/"}>
-                            <li className="py-4">Skills</li>
-                        </Link>
-                        <Link href={"/"}>
-                            <li className="py-4">Contact</li>
-                        </Link>
+                        <a  className="cursor-pointer hover:scale-110 duration-150" onClick={handleNav} href={"#about"}>
+                            <li className="py-4 " id='About'>About</li>
+                        </a>
+                        <a className="cursor-pointer hover:scale-110 duration-150" onClick={handleNav} href={"#skills"}>
+                            <li className="py-4 " id='Skills'>Skills</li>
+                        </a>
+                        <a className="cursor-pointer hover:scale-10 duration-150" onClick={handleNav} href={"#contact"}>
+                            <li className="py-4 " id='Contact'>Contact</li>
+                        </a>
                         
                     </ul>
                     <div className="py-40">

@@ -13,7 +13,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
+      <body className='bg-black'>
+      {/* bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 */}
         <Navbar />
         {children}</body>
     </html>
