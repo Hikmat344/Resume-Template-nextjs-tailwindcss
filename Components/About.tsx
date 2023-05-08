@@ -10,7 +10,7 @@ return (
         <div className="flex items-center max-w-full mx-auto leading-5" id="about">
             <div className="text-white-500 px-10 mt-10">
                
-                <div className="flex justify-between">
+                <div className="flex justify-between md:flex-row sm:flex-col">
                     <div className="flex flex-col flex-initial">
                     <h1 className="p-24 text-center text-5xl text-red-900 font-bold mb-10">
                     About Me
