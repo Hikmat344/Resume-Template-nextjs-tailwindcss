@@ -1,8 +1,8 @@
 import React from 'react';
-import {AiOutlineSend , AiFillMediumSquare} from "react-icons/Ai";
-import { MdOutlineAlternateEmail} from "react-icons/Md";
-import {GrLocation} from "react-icons/Gr";
-import {BsWhatsapp} from "react-icons/Bs";
+import {AiOutlineSend , AiFillMediumSquare} from "react-icons/ai";
+import { MdOutlineAlternateEmail} from "react-icons/md";
+import {GrLocation} from "react-icons/gr";
+import {BsWhatsapp} from "react-icons/bs";
 import Linkedin from './shared/Linkedin';
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 
