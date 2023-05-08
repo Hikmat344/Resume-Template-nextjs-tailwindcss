@@ -1,5 +1,5 @@
 import react from "react"
-import {MdOutlineKeyboardArrowRight} from "react-icons/Md"
+import {MdOutlineKeyboardArrowRight} from "react-icons/md"
 import image from "@/public/Images/image.png"
 import Image from "next/image"
 import about from "@/Components/About"
