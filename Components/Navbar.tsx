@@ -4,7 +4,7 @@ import {FaFacebook} from "react-icons/fa"
 import Image from "next/image"
 import Link from "next/link"
 import { useState } from "react";
-import {AiOutlineClose, AiOutlineMenu , AiFillMediumSquare} from "react-icons/Ai";
+import {AiOutlineClose, AiOutlineMenu , AiFillMediumSquare} from "react-icons/ai";
 import Linkedin from "./shared/Linkedin";
 import logo from "@/public/Images/logo.png"
 
