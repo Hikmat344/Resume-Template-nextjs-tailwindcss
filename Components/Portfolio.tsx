@@ -35,7 +35,7 @@ export default function Portfolio(){
                         {/* Card2 */}
                         <div className="  h-60 hover:scale-110 duration-150">
                             <div>
-                                <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/jet.jpg"} alt="website" />
+                                <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/jet.JPG"} alt="website" />
                         
                             </div>
                             <div className="flex justify-between px-5 text-white shadow-lg shadow-red-900">
@@ -51,7 +51,7 @@ export default function Portfolio(){
                         {/* Card3 */}
                         <div className="  h-60 hover:scale-110 duration-150">
                             <div>
-                                <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/five.jpg"} alt="website" />
+                                <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/five.JPG"} alt="website" />
                         
                             </div>
                             <div className="flex justify-between px-5 text-white  shadow-lg shadow-red-900">
