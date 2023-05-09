@@ -6,7 +6,7 @@ import Link from "next/link"
 import { useState } from "react";
 import {AiOutlineClose, AiOutlineMenu , AiFillMediumSquare} from "react-icons/ai";
 import Linkedin from "./shared/Linkedin";
-import logo from "@/public/Images/logo.png"
+
 
 
 
@@ -57,7 +57,7 @@ const Navbar = () => {
         <div className={`${nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen p-10 ease-in duration-500 bg-white" : "fixed left-[-100%] top-0 p-15 ease-in duration-500 "} `}>
                 <div className="flex w-full items-center justify-between">
                 <Link href={"/"} >
-                    <Image src = {logo} 
+                    <Image src = {"/Images/logo.png"} 
                     alt=" " width = {100} height={100} className="w-16 h-16 rounded-full bg-[#54ca95]"/>
                 </Link>
                 <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 duration-150">

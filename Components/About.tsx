@@ -1,8 +1,7 @@
 
 import Image from 'next/image';
-import line from "../public/Images/minus.png";
 import react from "react";
-import developer from "../public/Images/developer2.png"
+
 
 export default function About(){
 return (
@@ -27,7 +26,7 @@ return (
                     </div>
                     <div className='text-red-900 mx-8  '>
             
-                            <Image className="rounded-lg  shadow-lg mt-20" width={420} height={420} src={developer} alt='web development icons' />
+                            <Image className="rounded-lg  shadow-lg mt-20" width={420} height={420} src={"/Images/developer2.png"} alt='web development icons' />
                             
                     </div>
                     </div>

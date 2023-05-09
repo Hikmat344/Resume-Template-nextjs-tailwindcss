@@ -1,6 +1,5 @@
 import react from "react"
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
-import image from "../public/Images/image.png"
 import Image from "next/image"
 import about from "../Components/About"
 export const Herosec = () =>{
@@ -10,7 +9,7 @@ export const Herosec = () =>{
         <section className="flex items-center text-justify justify-around gap-0 md:flex-row flex-col  md:max-w-full max-w-auto max-h-screen">
             <div className="md:max-w-full max-w-auto px-15 mt-8">
             
-             <Image className="rounded-full w-96 h-96 shadow-lg shadow-red-900" src={image} alt="hikmatullah" /> 
+             <Image className="rounded-full w-96 h-96 shadow-lg shadow-red-900" src={"/Images/image.png"} alt="hikmatullah" /> 
 
             </div>
             <div className="py-10 mt-8 px-20">
