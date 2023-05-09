@@ -1,8 +1,8 @@
 import react from "react"
 import {MdOutlineKeyboardArrowRight} from "react-icons/md"
-import image from "@/public/Images/image.png"
+import image from "../public/Images/image.png"
 import Image from "next/image"
-import about from "@/Components/About"
+import about from "../Components/About"
 export const Herosec = () =>{
 
     

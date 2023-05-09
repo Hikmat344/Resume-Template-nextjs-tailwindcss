@@ -1,7 +1,7 @@
 import Image from "next/image";
-import khan from "@/public/Images/portfolio/khan.jpg"
-import jet from "@/public/Images/portfolio/jet.jpg"
-import five from "@/public/Images/portfolio/five.jpg"
+import khan from "../public/Images/portfolio/khan.jpg"
+import jet from "../public/Images/portfolio/jet.jpg"
+import five from "../public/Images/portfolio/five.jpg"
 
 
 export default function Portfolio(){

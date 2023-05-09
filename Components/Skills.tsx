@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import html from "@/public/Images/skill/html.png"
-import css from  "@/public/Images/skill/css.png"
-import java from  "@/public/Images/skill/javas.png"
-import next from  "@/public/Images/skill/nextjs.png"
-import tlcss from  "@/public/Images/skill/tlcss.jpg"
-import node from  "@/public/Images/skill/node.png"
-import chakra from  "@/public/Images/skill/chakra.jpg"
-import type from  "@/public/Images/skill/type.png"
+import html from "../public/Images/skill/html.png"
+import css from  "../public/Images/skill/css.png"
+import java from  "../public/Images/skill/javas.png"
+import next from  "../public/Images/skill/nextjs.png"
+import tlcss from  "../public/Images/skill/tlcss.jpg"
+import node from  "../public/Images/skill/node.png"
+import chakra from  "../public/Images/skill/chakra.jpg"
+import type from  "../public/Images/skill/type.png"
 
 const Skills = () => {
   return (

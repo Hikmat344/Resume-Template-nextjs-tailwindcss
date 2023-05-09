@@ -1,8 +1,8 @@
 
 import Image from 'next/image';
-import line from "@/public/Images/minus.png";
+import line from "../public/Images/minus.png";
 import react from "react";
-import developer from "@/public/Images/developer2.png"
+import developer from "../public/Images/developer2.png"
 
 export default function About(){
 return (
