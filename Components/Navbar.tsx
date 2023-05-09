@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="sticky top-0 w-full h-20 shadow-md shadow-white z[100] bg-red-900 text-white">
         <div className="flex sticky justify-between items-center w-full h-full px-4 2xl:px-16 py-10">
             <Link href={"#home"} >
-                <Image src = {logo} 
+                <Image src = {"/Images/logo.png"} 
                 alt=" " width = {100} height={100} className="w-16 h-16 rounded-full bg-[#54ca95]"/>
             </Link>
             <div>
