@@ -102,7 +102,9 @@ const Contact = () => {
         </div>
         </div>
         <div>
-            <p className='flex px-10 justify-text justify-end text-white w-[100%] items-center'>Created by Hikmat Ullah</p>
+            <p className='flex px-10 justify-text justify-end text-white w-[100%] items-center'>
+                Created by <a href='https://hikmeedev.vercel.app/'>Hikmat Ullah</a>
+                </p>
         </div>
     </div>
   )
