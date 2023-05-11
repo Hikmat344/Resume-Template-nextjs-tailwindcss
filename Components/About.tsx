@@ -12,7 +12,7 @@ return (
                 <div className="flex justify-between md:flex-row sm:flex-col">
                     <div className="flex flex-col flex-initial">
                     <h1 className="p-24 text-center text-5xl text-red-900 font-bold mb-10">
-                    About Me
+                    ABOUT ME
                     {/* <Image className="mt-0 items-center rounded-none w-15 h-15 shadow-lg" src={line} alt=" line" /> */}
 
                 </h1>

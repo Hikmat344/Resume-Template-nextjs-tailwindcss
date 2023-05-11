@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="text-gray-500 px-10 mt-30 mx-auto flex-col md:flex-row sm:flex-col">
        
              <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
-                Contact me
+                GET IN TOUCH
             </h1>
             <div className='flex justify-between '>
                 <div className='flex justify-start '>

@@ -11,7 +11,7 @@ export default function Portfolio(){
                 <div className="text-gray-500 px-10 mt-30 mx-auto">
                    
                     <h1 className="p-24 text-center text-5xl text-red-900 font-bold mb-10">
-                        Portfolio
+                        PORTFOLIO
                     </h1>
                 
                     {/* cards */}
