@@ -10,7 +10,7 @@ export default function Portfolio(){
             <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10" id="portfolio">
                 <div className="text-gray-500 px-10 mt-30 mx-auto">
                    
-                    <h1 className="p-24 text-center text-5xl text-red-900 font-bold mb-10">
+                    <h1 className="p-24 text-center md:text-center text-5xl text-red-900 font-bold mb-10">
                         PORTFOLIO
                     </h1>
                 
