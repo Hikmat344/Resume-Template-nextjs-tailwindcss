@@ -9,8 +9,8 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-ic
 const Contact = () => {
   return (
     <div>
-        <div className="grid items-center max-w-8xl mx-auto leading-5 mt-10 grid-cols-2 sm:grid-cols-2 " id="contact">
-        <div className="text-gray-500 px-10 mt-30 mx-auto flex-col">
+        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 md:flex-row flex-col" id="contact">
+        <div className="text-gray-500 px-10 mt-30 mx-auto flex-col md:flex-row sm:flex-col">
        
              <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
                 GET IN TOUCH
@@ -38,7 +38,7 @@ const Contact = () => {
             </form>
             </div>
             
-            <div className='flex md:flex-col  px-10 mx-10 '>
+            <div className='flex flex-col px-10 mx-10 '>
              <div className='flex flex-row px-20 mx-0 items-center text-black '>
                 <MdOutlineAlternateEmail className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>hikmatcse1919@gmail.com</div>
              </div>
