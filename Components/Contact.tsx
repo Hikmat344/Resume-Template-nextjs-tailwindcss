@@ -38,7 +38,7 @@ const Contact = () => {
             </form>
             </div>
             
-            <div className='flex flex-col px-10 mx-10 '>
+            <div className='flex md:flex-col sm:flex-row px-10 mx-10 '>
              <div className='flex flex-row px-20 mx-0 items-center text-black '>
                 <MdOutlineAlternateEmail className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>hikmatcse1919@gmail.com</div>
              </div>
