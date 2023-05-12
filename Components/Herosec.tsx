@@ -12,7 +12,7 @@ export const Herosec = () =>{
              <Image className="rounded-full w-96 h-96 shadow-lg shadow-red-900" src={"/Images/image.png"} alt="hikmatullah" /> 
 
             </div>
-            <div className="mt-3 md:py-10 md:mt-8 md:px-20">
+            <div className="mt-1 md:py-10 md:mt-8 md:px-20">
             <h2 className="flex justify-center md:justify-start duration-700 font-extralight text-green-500 text-2xl text-bold">web Developer</h2>
 
             <h1 className="font-bold font-mono text-red-900 text-5xl flex justify-center md:justify-start max-w-2xl md:max-w-1xl ">Hikmat Ullah</h1>
@@ -20,7 +20,7 @@ export const Herosec = () =>{
 
 
             <p className="text-white font-sans text-1xl text-justify max-w-2xl mt-5">So keep your eyes fixed on the horizon, your feet firmly planted, and your spirit unbreakable. Because when life tries to suck you in, you will be ready to say, &apos;Bring it on.&apos;</p>
-            <div className="flex flex-row  gap-8 justify-start mt-5">
+            <div className="flex flex-row  gap-8 justify-center md:justify-start mt-5">
             <button className="mt-5 items-center rounded-3xl text-white border-4 border-red-900 flex justify-center cursor-pointer group-hover:scale-105 ease-in hover:bg-red-900 py-2 px-2 ">
             <a href="/Hikmat_CV.pdf" download="cv">Download CV</a>
 

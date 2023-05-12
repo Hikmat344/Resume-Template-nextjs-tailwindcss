@@ -6,12 +6,12 @@ import react from "react";
 export default function About(){
 return (
     <div className="flex items-center mt-10">
-        <div className="flex items-center max-w-full mx-auto leading-5" id="about">
+        <div className="flex items-center  max-w-full mx-auto leading-5" id="about">
             <div className="text-white-500 px-10 mt-10">
                
                 <div className="flex justify-between md:flex-row sm:flex-col">
                     <div className="flex flex-col flex-initial">
-                    <h1 className="p-24 text-center text-5xl text-red-900 font-bold mb-10">
+                    <h1 className="p-24 justify-center text-center text-5xl text-red-900 font-bold mb-10">
                     ABOUT ME
                     {/* <Image className="mt-0 items-center rounded-none w-15 h-15 shadow-lg" src={line} alt=" line" /> */}
 
