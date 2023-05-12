@@ -15,7 +15,7 @@ export const Herosec = () =>{
             <div className="py-10 mt-8 px-20">
             <h2 className="flex justify-start duration-700 font-extralight text-green-500 text-2xl text-bold">web Developer</h2>
 
-            <h1 className="font-bold font-mono text-red-900 text-5xl flex justify-start md:max-w-2xl max-w-1xl ">Hikmat Ullah</h1>
+            <h1 className="font-bold font-mono text-red-900 text-5xl flex justify-start max-w-2xl md:max-w-1xl ">Hikmat Ullah</h1>
             <h2 className="flex justify-start duration-700 font-extralight text-green-500 text-1xl text-bold">web 3.0 & Metaverse Evengalist</h2>
 
 
