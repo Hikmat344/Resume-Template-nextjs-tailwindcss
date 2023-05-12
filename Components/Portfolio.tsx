@@ -22,7 +22,7 @@ export default function Portfolio(){
                                 <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/khan.jpg"} alt="website" />
                         
                             </div>
-                            <div className="w-80 h-60 flex justify-between items-center px-5 text-white shadow-lg shadow-red-900">
+                            <div className="w-80 flex justify-between items-center px-5 text-white shadow-lg shadow-red-900">
                                 <button className="p-5 hover:scale-50 duration-100">
                                     <a href="https://khanshahzada.com/" >Check Out</a>
                                 </button>
@@ -38,7 +38,7 @@ export default function Portfolio(){
                                 <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/jet.JPG"} alt="website" />
                         
                             </div>
-                            <div className="w-80 h-60 flex justify-between px-5 text-white shadow-lg shadow-red-900">
+                            <div className="w-80 flex justify-between px-5 text-white shadow-lg shadow-red-900">
                                 <button className="p-5 hover:scale-50 duration-100">
                                     <a href="https://jettaxis.co.uk/" >Check Out</a>
                                 </button>
@@ -54,7 +54,7 @@ export default function Portfolio(){
                                 <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/five.JPG"} alt="website" />
                         
                             </div>
-                            <div className="w-80 h-60 flex justify-between px-5 text-white  shadow-lg shadow-red-900">
+                            <div className="w-80 flex justify-between px-5 text-white  shadow-lg shadow-red-900">
                                 <button className="p-5 hover:scale-50 duration-100">
                                     <a href="https://fivestar-cars.co.uk/mini-bus-hire/" >Check Out</a>
                                 </button>
