@@ -12,7 +12,7 @@ export const Herosec = () =>{
              <Image className="rounded-full w-96 h-96 shadow-lg shadow-red-900" src={"/Images/image.png"} alt="hikmatullah" /> 
 
             </div>
-            <div className="py-10 mt-8 px-20">
+            <div className="mt-8 md:py-10 md:mt-8 md:px-20">
             <h2 className="flex justify-start duration-700 font-extralight text-green-500 text-2xl text-bold">web Developer</h2>
 
             <h1 className="font-bold font-mono text-red-900 text-5xl flex justify-start max-w-2xl md:max-w-1xl ">Hikmat Ullah</h1>
