@@ -7,7 +7,7 @@ export const Herosec = () =>{
     
     return(
         <section className="flex items-center text-justify justify-around gap-0 md:flex-row flex-col  md:max-w-full max-w-auto max-h-screen">
-            <div className="md:max-w-full max-w-auto px-15 mt-8">
+            <div className="md:max-w-full max-w-auto px-15 md:mt-8 mt-8">
             
              <Image className="rounded-full w-96 h-96 shadow-lg shadow-red-900" src={"/Images/image.png"} alt="hikmatullah" /> 
 
@@ -21,7 +21,7 @@ export const Herosec = () =>{
 
             <p className="text-white font-sans text-1xl text-justify max-w-2xl mt-5">So keep your eyes fixed on the horizon, your feet firmly planted, and your spirit unbreakable. Because when life tries to suck you in, you will be ready to say, &apos;Bring it on.&apos;</p>
             <div className="flex flex-row  gap-8 justify-start mt-5">
-            <button className="mt-5 items-center rounded-3xl text-white border-4 border-red-900 flex justify-center cursor-pointer group-hover:scale-105 ease-in hover:bg-red-300 py-2 px-2 ">
+            <button className="mt-5 items-center rounded-3xl text-white border-4 border-red-900 flex justify-center cursor-pointer group-hover:scale-105 ease-in hover:bg-red-900 py-2 px-2 ">
             <a href="/Hikmat_CV.pdf" download="cv">Download CV</a>
 
             </button>
