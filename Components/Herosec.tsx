@@ -7,7 +7,7 @@ export const Herosec = () =>{
     
     return(
         <section className="flex items-center text-justify justify-around gap-0 md:flex-row flex-col  md:max-w-full max-w-auto max-h-screen">
-            <div className="md:max-w-full max-w-auto px-15 py-8 mt-8 sm:mt-8 md:mt-8 lg-mt-10 ">
+            <div className="md:max-w-full max-w-auto px-15 py-8 mt-8 sm:mt-15 md:mt-8  ">
             
              <Image className="rounded-full w-96 h-96 shadow-lg shadow-red-900" src={"/Images/image.png"} alt="hikmatullah" /> 
 
