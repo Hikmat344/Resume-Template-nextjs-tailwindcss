@@ -19,7 +19,7 @@ export const Herosec = () =>{
             <h2 className="flex justify-center md:justify-start duration-700 font-extralight text-green-500 text-1xl text-bold">web 3.0 & Metaverse Evengalist</h2>
 
 
-            <p className="text-white font-sans text-1xl text-justify items-center max-w-1xl md:max-w-2xl mt-5">So keep your eyes fixed on the horizon, your feet firmly planted, and your spirit unbreakable. Because when life tries to suck you in, you will be ready to say, &apos;Bring it on.&apos;</p>
+            <p className="text-white font-sans text-1xl text-justify items-center max-w-sm md:max-w-2xl mt-5">So keep your eyes fixed on the horizon, your feet firmly planted, and your spirit unbreakable. Because when life tries to suck you in, you will be ready to say, &apos;Bring it on.&apos;</p>
             <div className="flex flex-row  gap-8 justify-center md:justify-start mt-5">
             <button className="mt-5 items-center rounded-3xl text-white border-4 border-red-900 flex justify-center cursor-pointer group-hover:scale-105 ease-in hover:bg-red-900 py-2 px-2 ">
             <a href="/Hikmat_CV.pdf" download="cv">Download CV</a>
