@@ -9,11 +9,9 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-ic
 const Contact = () => {
   return (
     <div>
-         <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
-                GET IN TOUCH
-            </h1>
+        
         <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 md:flex-row flex-col" id="contact">
-        <div className="text-gray-500 px-10 mt-30 mx-auto flex-col md:flex-row sm:flex-col basis-1">
+        <div className="text-gray-500 px-10 mt-30 mx-auto flex-col md:flex-row sm:flex-col">
        
             
             <div className='flex justify-between '>
@@ -39,7 +37,7 @@ const Contact = () => {
             </form>
             </div>
             
-            <div className='flex flex-col px-10 mx-10  basis-1'>
+            <div className='flex flex-col px-10 mx-10 '>
              <div className='flex flex-row px-20 mx-0 items-center text-black '>
                 <MdOutlineAlternateEmail className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>hikmatcse1919@gmail.com</div>
              </div>
@@ -51,42 +49,42 @@ const Contact = () => {
              </div>
 
              <div className="pt-10  items-center mt-5 w-full sm:w-[100%] flex-row justify-around gap-4 px-20 mx-0  text-red-900 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
-                        <div className='mx-1'>
+                        <div className='mx-1 items-center'>
                             { <Linkedin url="https://www.linkedin.com/in/hikmat-ullah-b284081b9/">
                                 
                                  <FaLinkedin />
 
                             </Linkedin> }
                             </div>
-                            <div className='mx-1'>
+                            <div className='mx-1 items-center'>
                             <Linkedin url="https://www.facebook.com/hikmat.ullah.1694059">
 
                                 <FaFacebook /> 
 
                             </Linkedin>
                             </div>
-                            <div className='mx-1'>
+                            <div className='mx-1 items-center'>
                             <Linkedin url="https://www.github.com/Hikmee/">
 
                                 <FaGithub /> 
                                 
                             </Linkedin>
                             </div>
-                            <div className='mx-1'>
+                            <div className='mx-1 items-center'>
                             <Linkedin url="https://www.twitter.com">
 
                                 <FaTwitter /> 
                                 
                             </Linkedin>
                             </div>
-                            <div className='mx-1'>
+                            <div className='mx-1 items-center'>
                             <Linkedin url="https://www.youtube.com/@hikmatullah9353">
 
                                 <FaYoutube /> 
                                 
                             </Linkedin>
                             </div>
-                            <div className='mx-1'>
+                            <div className='mx-1 items-center'>
                             <Linkedin url="https://medium.com/@khanhikmee344">
 
                                 <AiFillMediumSquare /> 
