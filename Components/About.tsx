@@ -24,7 +24,7 @@ return (
 
                         </p>
                     </div>
-                    <div className='text-red-900 mx-8  sm:hidden'>
+                    <div className='text-red-900 mx-8  md:hidden'>
             
                             <Image className="rounded-lg  shadow-lg mt-20" width={420} height={420} src={"/Images/developer2.png"} alt='web development icons' />
                             
