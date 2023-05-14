@@ -9,7 +9,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-ic
 const Contact = () => {
   return (
     <div>
-        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 flex-row sm:flex-col" id="contact">
+        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 flex-row sm:flex-col sm:flex-nowrap" id="contact">
         <div className="text-gray-500 px-10 mt-30 mx-auto flex-col md:flex-row sm:flex-col">
        
              <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
