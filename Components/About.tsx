@@ -5,7 +5,7 @@ import react from "react";
 
 export default function About(){
 return (
-    <div className="flex items-center mt-10">
+    <div className="flex items-center mt-10 py-10 md:py-0">
         <div className="flex items-center  max-w-full mx-auto leading-5" id="about">
             <div className="text-white-500 px-10 mt-10">
                
