@@ -13,8 +13,8 @@ const Contact = () => {
                 GET IN TOUCH
             </h1>
 
-        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 flex-row sm:flex-col " id="contact">
-        <div className="text-gray-500 px-10 mt-30 mx-auto flex-row sm:flex-col">
+        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 flex-row " id="contact">
+        <div className="text-gray-500 px-10 mt-30 mx-auto flex-row ">
        
 
             <div className='flex flex-row justify-between sm:justify-center sm:flex-col'>
