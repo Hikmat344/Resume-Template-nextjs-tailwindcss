@@ -15,8 +15,9 @@ const Contact = () => {
              <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
                 GET IN TOUCH
             </h1>
-            <div className='flex justify-between sm:justify-center'>
-                <div className='flex justify-start flex-col sm:basis-1'>
+            <div className='flex justify-between sm:justify-center sm:flex-col'>
+
+                <div className='flex justify-start flex-col sm:justify-center'>
                 <form 
              action="https://formspree.io/f/xnqyoqbk"
              method="POST"
