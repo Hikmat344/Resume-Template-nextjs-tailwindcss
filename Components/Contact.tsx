@@ -9,13 +9,12 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-ic
 const Contact = () => {
   return (
     <div>
-         <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
+        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 flex-row sm:flex-col " id="contact">
+        <div className="text-gray-500 px-10 mt-30 mx-auto flex-col md:flex-row sm:flex-col">
+       
+             <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
                 GET IN TOUCH
             </h1>
-
-        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 flex-row " id="contact">
-        <div className="text-gray-500 px-10 mt-30 mx-auto flex-row ">
-       
 
             <div className='flex flex-row justify-between sm:justify-center sm:flex-col'>
 
@@ -106,10 +105,10 @@ const Contact = () => {
     <div>
         <p className='flex px-10 justify-text justify-end text-white w-[100%] items-center'>
             Created by  <a className='text-blue-400 underline' href='https://hikmeedev.vercel.app/'>    Hikmat Ullah</a>
-        </p>
+                </p>
+        </div>
     </div>
-</div>
-)
+  )
 }
 
 export default Contact
