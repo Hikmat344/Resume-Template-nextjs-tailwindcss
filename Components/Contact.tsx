@@ -15,15 +15,15 @@ const Contact = () => {
              <h1 className="p-24 text-center text-5xl mb-1 text-red-900 font-bold">
                 GET IN TOUCH
             </h1>
-            <div className='flex justify-between sm:justify-center sm:flex-col'>
+            <div className='flex flex-row justify-between sm:justify-center sm:flex-col'>
 
                 <div className='flex justify-start flex-col sm:justify-center'>
                 <form 
-             action="https://formspree.io/f/xnqyoqbk"
-             method="POST"
+                  action="https://formspree.io/f/xnqyoqbk"
+                 method="POST"
              
-             >
-                <div>
+                >
+                 <div>
                     <input name="name" required className='mx-auto p-2 w-80 bg-transparent border-4 border-red-900 rounded-md focus:outline-none text-white' placeholder='Enter Your name' type='text' />
                 </div>
                 <div className='my-1'>
