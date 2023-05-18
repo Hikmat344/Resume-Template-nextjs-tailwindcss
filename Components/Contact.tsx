@@ -59,7 +59,7 @@ const Contact = () => {
         <div className="text-white ml-4">+923446474475</div>
       </div>
       
-      <div className="grid grid-cols-6 sm:grid-cols-5 md:grid-cols-6 justify-around space-x-4 mt-6  ">
+      <div className="grid grid-cols-6 sm:grid-cols-5 md:grid-cols-6 items-center justify-around space-x-4 mt-6  ">
         <Linkedin url="https://www.linkedin.com/in/hikmat-ullah-b284081b9/">
           <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center" />
         </Linkedin>
