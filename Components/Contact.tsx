@@ -16,7 +16,7 @@ const Contact = () => {
        
              
             <div className='flex  flex-col justify-between'>
-                <div className='flex justify-start md:mx-15'>
+                <div className='flex  md:px-15'>
                 <form 
              action="https://formspree.io/f/xnqyoqbk"
              method="POST"
