@@ -14,7 +14,7 @@ const Skills = () => {
     <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10" id="skills">
         <div className="text-gray-500 px-10 mt-30 mx-auto">
        
-             <h1 className="p-24 text-center text-5xl text-red-900 font-bold mb-10"> SKILLS </h1>
+             <h1 className="p-24 text-center text-5xl text-red-900 font-bold mb-10 mt-1"> SKILLS </h1>
             <div className='grid grid-cols-3 sm:grid-cols-4 md:grid-cols-8 gap-20'>
                 {/* skill1 */}
                 <div className='p-1'>
