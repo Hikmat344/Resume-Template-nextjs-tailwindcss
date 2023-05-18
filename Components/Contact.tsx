@@ -8,7 +8,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-ic
 
 const Contact = () => {
   return (
-    <div className="flex flex-col items-center max-w-8xl mx-auto leading-5 mt-10" id="contact">
+    <div className="flex flex-row sm:flex-col items-center max-w-8xl mx-auto leading-5 mt-10" id="contact">
   <h1 className="p-5 text-5xl text-center text-red-900 font-bold mb-5">
     GET IN TOUCH
   </h1>
@@ -51,15 +51,15 @@ const Contact = () => {
         <div className="text-white ml-4">hikmatcse1919@gmail.com</div>
       </div>
       <div className="flex flex-row items-center text-black">
-        <GrLocation className="w-11 h-11 sm:w-0 sm:h-0 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
+        <GrLocation className="w-11 h-11  bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
         <div className="text-white ml-4">Peshawar Pakistan</div>
       </div>
       <div className="flex flex-row items-center text-black">
-        <BsWhatsapp className="w-11 h-11 sm:w-0 sm:h-0 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
+        <BsWhatsapp className="w-11 h-11  bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
         <div className="text-white ml-4">+923446474475</div>
       </div>
       
-      <div className="grid grid-cols-6 sm:grid-cols-5 justify-around space-x-4 mt-6  ">
+      <div className="grid grid-cols-6 sm:grid-cols-5 md:grid-cols-6 justify-around space-x-4 mt-6  ">
         <Linkedin url="https://www.linkedin.com/in/hikmat-ullah-b284081b9/">
           <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center" />
         </Linkedin>
@@ -92,7 +92,7 @@ const Contact = () => {
                 
         </div>
         <div>
-            <p className='flex md:px-10 justify-text justify-end text-white w-[100%] '>
+            <p className='flex md:px-10 justify-text justify-end text-white w-[100%] mt-10'>
                 Created by  <a className='text-blue-400 underline' href='https://hikmeedev.vercel.app/'>    Hikmat Ullah</a>
             </p>
         </div>
