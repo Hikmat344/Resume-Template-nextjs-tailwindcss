@@ -8,11 +8,11 @@ import { motion } from 'framer-motion';
 
 export default function Portfolio(){
     return(
-        <div>
+        <div id="portfolio">
         <h1 className="p-24 text-center md:text-center text-5xl text-red-900 font-bold mb-10">
                         PORTFOLIO
                     </h1>
-            <div className="flex items-center sm:items-center sm:text-center max-w-8xl mx-auto leading-5 mt-10" id="portfolio">
+            <div className="flex items-center sm:items-center sm:text-center max-w-8xl mx-auto leading-5 mt-10" >
                 <div className="text-gray-500 px-10 mt-30 mx-auto">
                    
                     
