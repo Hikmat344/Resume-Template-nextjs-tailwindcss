@@ -9,7 +9,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-ic
 const Contact = () => {
   return (
     <div className="flex flex-col items-center max-w-8xl mx-auto leading-5 mt-10" id="contact">
-  <h1 className="p-5 text-5xl text-center text-red-900 font-bold">
+  <h1 className="p-5 text-5xl text-center text-red-900 font-bold mb-5">
     GET IN TOUCH
   </h1>
   <div className="flex flex-col items-center justify-center">
@@ -39,7 +39,7 @@ const Contact = () => {
         className="p-2 bg-transparent border-4 border-red-900 rounded-md focus:outline-none text-white w-80"
         placeholder="Enter Your message..."
       />
-      <button className="flex items-center group rounded-lg justify-start bg-red-900 py-2 px-2 text-black cursor-pointer hover:scale-105 ease-in hover:bg-gray-300 font-bold" type="submit">
+      <button className="flex items-center group rounded-lg justify-start bg-red-900 py-2 px-2 sm:px-1 text-black cursor-pointer hover:scale-105 ease-in hover:bg-gray-300 font-bold" type="submit">
         Send
         <AiOutlineSend size={25} className="group-hover:scale-100 duration-500 mx-3" />
       </button>
@@ -51,48 +51,48 @@ const Contact = () => {
         <div className="text-white ml-4">hikmatcse1919@gmail.com</div>
       </div>
       <div className="flex flex-row items-center text-black">
-        <GrLocation className="w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
+        <GrLocation className="w-11 h-11 sm:w-0 sm:h-0 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
         <div className="text-white ml-4">Peshawar Pakistan</div>
       </div>
       <div className="flex flex-row items-center text-black">
-        <BsWhatsapp className="w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
+        <BsWhatsapp className="w-11 h-11 sm:w-0 sm:h-0 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
         <div className="text-white ml-4">+923446474475</div>
       </div>
       
-      <div className="flex flex-row justify-around space-x-4 mt-5">
+      <div className="grid grid-cols-6 sm:grid-cols-5 justify-around space-x-4 mt-6  ">
         <Linkedin url="https://www.linkedin.com/in/hikmat-ullah-b284081b9/">
-          <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" />
+          <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center" />
         </Linkedin>
         <Linkedin url="https://www.facebook.com/hikmat.ullah.1694059">
 
-            <FaFacebook className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+            <FaFacebook className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center" /> 
 
         </Linkedin>
         <Linkedin url="https://www.github.com/Hikmee/">
 
-            <FaGithub className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+            <FaGithub className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center" /> 
                                 
         </Linkedin>
         <Linkedin url="https://www.twitter.com">
 
-            <FaTwitter className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+            <FaTwitter className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center" /> 
                                 
         </Linkedin>
         <Linkedin url="https://www.youtube.com/@hikmatullah9353">
 
-            <FaYoutube className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center"/> 
+            <FaYoutube className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center"/> 
                                 
         </Linkedin>
         <Linkedin url="https://medium.com/@khanhikmee344">
 
-            <AiFillMediumSquare className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+            <AiFillMediumSquare className="text-white text-3xl cursor-pointer hover:text-red-900  mx-1 items-center" /> 
                                 
         </Linkedin>
     </div>
                 
         </div>
         <div>
-            <p className='flex px-10 justify-text justify-end text-white w-[100%] items-center'>
+            <p className='flex md:px-10 justify-text justify-end text-white w-[100%] '>
                 Created by  <a className='text-blue-400 underline' href='https://hikmeedev.vercel.app/'>    Hikmat Ullah</a>
             </p>
         </div>
