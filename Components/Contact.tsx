@@ -12,11 +12,11 @@ const Contact = () => {
         <h1 className="p-24 text-center text-5xl mb-1 justify-center text-red-900 font-bold">
                 GET IN TOUCH
             </h1>
-        <div className="flex items-center max-w-8xl mx-auto leading-5 mt-10 flex-row md:flex-row sm:flex-col" id="contact">
+        <div className="flex items-center justify-between max-w-8xl mx-auto leading-5 mt-10 flex-row md:flex-row sm:flex-col" id="contact">
        
              
-            <div className='flex justify-between flex-col '>
-                <div className='flex justify-start '>
+            <div className='flex  flex-col '>
+                <div className='flex justify-start px-3'>
                 <form 
              action="https://formspree.io/f/xnqyoqbk"
              method="POST"
@@ -37,8 +37,9 @@ const Contact = () => {
                 </button>
             </form>
             </div>
+            </div>
             
-            <div className='flex flex-col  px-10 mx-10 sm:flex-nowrap'>
+            <div className='flex flex-col  px-10 mx-10 '>
              <div className='flex flex-row px-20 mx-0 md:px-20 md:mx-0 sm:px-20 sm:mx-0  items-center text-black '>
                 <MdOutlineAlternateEmail className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>hikmatcse1919@gmail.com</div>
              </div>
@@ -48,6 +49,7 @@ const Contact = () => {
              <div className='flex flex-row px-20 mx-0 md:px-20 md:mx-0 sm:px-20 sm:mx-0 mt-8 items-center text-lg text-black'>
              <BsWhatsapp  className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>+923446474475</div>
              </div>
+             
 
              <div className="pt-10  items-center mt-5 w-full sm:w-[100%] flex-row justify-around gap-4 px-20 mx-0  text-red-900 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
                         <div className='mx-1 items-center'>
@@ -93,12 +95,8 @@ const Contact = () => {
                             </Linkedin>
                             </div>
                             
-                            
-                        </div> 
-
-            </div>
-
-            </div>
+                </div> 
+                </div>
         
         </div>
         <div>
