@@ -16,7 +16,7 @@ const Contact = () => {
        
              
             <div className='flex  flex-col justify-between'>
-                <div className='flex justify-start px-3'>
+                <div className='flex justify-start md:px-15'>
                 <form 
              action="https://formspree.io/f/xnqyoqbk"
              method="POST"
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             </div>
             
-            <div className='flex flex-col mt-10 md:mt-0 px-3'>
+            <div className='flex flex-col mt-10 md:mt-0 px-6'>
              <div className='flex flex-row   md:px-20 md:mx-0 items-center text-black '>
                 <MdOutlineAlternateEmail className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>hikmatcse1919@gmail.com</div>
              </div>

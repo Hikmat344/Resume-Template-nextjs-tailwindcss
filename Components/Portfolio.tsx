@@ -6,13 +6,14 @@ import Image from "next/image";
 
 export default function Portfolio(){
     return(
-        
+        <div>
+        <h1 className="p-24 text-center md:text-center text-5xl text-red-900 font-bold mb-10">
+                        PORTFOLIO
+                    </h1>
             <div className="flex items-center sm:items-center sm:text-center max-w-8xl mx-auto leading-5 mt-10" id="portfolio">
                 <div className="text-gray-500 px-10 mt-30 mx-auto">
                    
-                    <h1 className="p-24 text-center md:text-center text-5xl text-red-900 font-bold mb-10">
-                        PORTFOLIO
-                    </h1>
+                    
                 
                     {/* cards */}
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-24 mx-auto w-full ">
@@ -66,6 +67,7 @@ export default function Portfolio(){
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
 
     )
