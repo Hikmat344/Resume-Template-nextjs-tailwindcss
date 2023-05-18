@@ -12,7 +12,7 @@ const Contact = () => {
         <h1 className="p-24 text-center text-5xl mb-1  text-red-900 font-bold">
                 GET IN TOUCH
             </h1>
-        <div className="flex items-center justify-between max-w-8xl mx-auto leading-5 mt-10  md:flex-row flex-col" id="contact">
+        <div className="flex items-center  max-w-8xl mx-auto leading-5 mt-10  md:flex-row flex-col" id="contact">
        
              
             <div className='flex  flex-col '>
@@ -39,7 +39,7 @@ const Contact = () => {
             </div>
             </div>
             
-            <div className='flex flex-row md:flex-col lg:flex-col  '>
+            <div className='flex flex-col  '>
              <div className='flex flex-row   items-center text-black '>
                 <MdOutlineAlternateEmail className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>hikmatcse1919@gmail.com</div>
              </div>
