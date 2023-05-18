@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="flex items-center  max-w-8xl mx-auto leading-5 mt-10  md:flex-row flex-col" id="contact">
        
              
-            <div className='flex  flex-col md:px-20'>
+            <div className='flex  flex-col md:px-20 md:mx-20'>
                 
                 <form 
              action="https://formspree.io/f/xnqyoqbk"
@@ -100,7 +100,7 @@ const Contact = () => {
         
         </div>
         <div>
-            <p className='flex px-10 justify-text justify-end text-white w-[100%] items-center'>
+            <p className='flex px-10 justify-text justify-end text-white w-[100%] items-center mt-8'>
                 Created by  <a className='text-blue-400 underline' href='https://hikmeedev.vercel.app/'>    Hikmat Ullah</a>
                 </p>
         </div>
