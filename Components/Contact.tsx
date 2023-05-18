@@ -58,54 +58,45 @@ const Contact = () => {
         <BsWhatsapp className="w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />
         <div className="text-white ml-4">+923446474475</div>
       </div>
-      <div className="pt-10  items-center mt-5 w-full sm:w-[100%] flex-row justify-around gap-4 px-20 mx-0  text-red-900 ">
-      <div className="flex justify-center space-x-4 mt-5">
+      
+      <div className="flex flex-row justify-around space-x-4 mt-5">
         <Linkedin url="https://www.linkedin.com/in/hikmat-ullah-b284081b9/">
-          <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-blue-400" />
+          <FaLinkedin className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" />
+        </Linkedin>
+        <Linkedin url="https://www.facebook.com/hikmat.ullah.1694059">
+
+            <FaFacebook className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+
+        </Linkedin>
+        <Linkedin url="https://www.github.com/Hikmee/">
+
+            <FaGithub className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+                                
+        </Linkedin>
+        <Linkedin url="https://www.twitter.com">
+
+            <FaTwitter className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+                                
+        </Linkedin>
+        <Linkedin url="https://www.youtube.com/@hikmatullah9353">
+
+            <FaYoutube className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center"/> 
+                                
+        </Linkedin>
+        <Linkedin url="https://medium.com/@khanhikmee344">
+
+            <AiFillMediumSquare className="text-white text-3xl cursor-pointer hover:text-blue-400 mx-1 items-center" /> 
+                                
         </Linkedin>
     </div>
-                <div className='mx-1 items-center'>
-                            <Linkedin url="https://www.facebook.com/hikmat.ullah.1694059">
-
-                                <FaFacebook /> 
-
-                            </Linkedin>
-                            </div>
-                            <div className='mx-1 items-center'>
-                            <Linkedin url="https://www.github.com/Hikmee/">
-
-                                <FaGithub /> 
-                                
-                            </Linkedin>
-                            </div>
-                            <div className='mx-1 items-center'>
-                            <Linkedin url="https://www.twitter.com">
-
-                                <FaTwitter /> 
-                                
-                            </Linkedin>
-                            </div>
-                            <div className='mx-1 items-center'>
-                            <Linkedin url="https://www.youtube.com/@hikmatullah9353">
-
-                                <FaYoutube /> 
-                                
-                            </Linkedin>
-                            </div>
-                            <div className='mx-1 items-center'>
-                            <Linkedin url="https://medium.com/@khanhikmee344">
-
-                                <AiFillMediumSquare /> 
-                                
-                            </Linkedin>
-                            </div>
-        <div>
+                
         </div>
+        <div>
             <p className='flex px-10 justify-text justify-end text-white w-[100%] items-center'>
                 Created by  <a className='text-blue-400 underline' href='https://hikmeedev.vercel.app/'>    Hikmat Ullah</a>
             </p>
         </div>
-    </div>
+    
 </div>
   )
 }
