@@ -39,19 +39,19 @@ const Contact = () => {
             </div>
             </div>
             
-            <div className='flex flex-col  '>
-             <div className='flex flex-row   items-center text-black '>
+            <div className='flex flex-col mt-10 md:mt-0 '>
+             <div className='flex flex-row  px-0 md:px-20 items-center text-black '>
                 <MdOutlineAlternateEmail className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>hikmatcse1919@gmail.com</div>
              </div>
-             <div className='flex flex-row  mt-8 items-center text-lg text-black'>
+             <div className='flex flex-row px-0 md:px-20 mt-8 items-center text-lg text-black'>
              <GrLocation  className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>Peshawar Pakistan</div>
              </div>
-             <div className='flex flex-row  mt-8 items-center text-lg text-black'>
+             <div className='flex flex-row px-0 md:px-20 mt-8 items-center text-lg text-black'>
              <BsWhatsapp  className="text-lg w-11 h-11 bg-red-900 rounded-full cursor-pointer hover:scale-105 ease-in duration-300 hover:bg-gray-300 shadow-lg shadow-red-900" />  <div className='mx-10 text-white'>+923446474475</div>
              </div>
              
 
-             <div className="pt-10  items-center mt-5 w-full sm:w-[100%] flex-row justify-around gap-4 px-20 mx-0  text-red-900 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+             <div className="pt-10  items-center mt-5 w-full sm:w-[100%] flex-row justify-around gap-4 px-20 mx-0  text-red-900 grid grid-cols-6 sm:grid-cols-4 md:grid-cols-6">
                         <div className='mx-1 items-center'>
                             { <Linkedin url="https://www.linkedin.com/in/hikmat-ullah-b284081b9/">
                                 
