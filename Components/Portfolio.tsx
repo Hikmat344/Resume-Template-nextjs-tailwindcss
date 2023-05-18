@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { motion } from 'framer-motion';
+
 
 
 
@@ -18,7 +20,7 @@ export default function Portfolio(){
                     {/* cards */}
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-24 mx-auto w-full ">
                         {/* Card1 */}
-                        <div className="  h-60 hover:scale-110 duration-150">
+                        <div className="  h-60 hover:scale-110 duration-150 ">
                             <div>
                                 <Image  className="rounded-t-lg w-80 h-60" src={"/Images/portfolio/khan.jpg"} alt="website" />
                         
