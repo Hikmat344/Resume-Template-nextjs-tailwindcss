@@ -15,8 +15,8 @@ const Contact = () => {
         <div className="flex items-center  max-w-8xl mx-auto leading-5 mt-10  md:flex-row flex-col" id="contact">
        
              
-            <div className='flex  flex-col justify-between'>
-                <div className='flex  md:px-15'>
+            <div className='flex  flex-col md:px-20'>
+                
                 <form 
              action="https://formspree.io/f/xnqyoqbk"
              method="POST"
@@ -36,7 +36,7 @@ const Contact = () => {
                 <AiOutlineSend size={25}  className ='group-hover:scale-100 duration-500 mx-3 '/>
                 </button>
             </form>
-            </div>
+            
             </div>
             
             <div className='flex flex-col mt-10 md:mt-0 px-6'>
