@@ -5,7 +5,7 @@ import react from "react";
 
 export default function About(){
 return (
-    <div className="flex items-center mt-10 py-15 md:py-0">
+    <div className="flex items-center mt-10 py-15 md:py-0 md:max-w-md">
         <div className="flex items-center  max-w-full mx-auto leading-5" id="about">
             <div className="text-white-500 px-10 mt-10">
                
@@ -16,7 +16,7 @@ return (
                     {/* <Image className="mt-0 items-center rounded-none w-15 h-15 shadow-lg" src={line} alt=" line" /> */}
 
                 </h1>
-                        <p className="text-2xl md:max-w-2xl flex text-slate-300 text-justify pt-15">
+                        <p className="text-2xl md:max-w-md flex text-slate-300 text-justify pt-15">
                              My name is Hikmat Ullah. I am a dedicated and reliable Computer System Engineering professional and having 1 year of working experience 
                             as a web developer based in Peshawar , PK. I have worked on different freelanceing platforms as well as with some international companies.
                             During the day I utilize the time to build my own products. Right now I am also trying a hand at web 3.0  and Metaverse. I love to learn and explore new arenas.

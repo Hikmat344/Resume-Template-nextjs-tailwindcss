@@ -9,10 +9,10 @@ import { motion } from 'framer-motion';
 export default function Portfolio(){
     return(
         <div id="portfolio">
-        <h1 className="p-24 text-center md:text-center text-5xl text-red-900 font-bold mb-10">
+        <h1 className="p-24 text-center md:text-center text-5xl text-red-900 font-bold mb-10 md:max-w-md">
                         PORTFOLIO
                     </h1>
-            <div className="flex items-center sm:items-center sm:text-center max-w-8xl mx-auto leading-5 mt-10" >
+            <div className="flex items-center sm:items-center sm:text-center max-w-8xl mx-auto leading-5 mt-10 md:max-w-md" >
                 <div className="text-gray-500 px-10 mt-30 mx-auto">
                    
                     
@@ -30,7 +30,7 @@ export default function Portfolio(){
                                     <a href="https://khanshahzada.com/" >Check Out</a>
                                 </button>
                                 <button className="p-5 hover:scale-50 duration-100">
-                                    <a href="https://khanshahzada.com/" >Code</a>
+                                    <a href="https://www.github.com/Hikmee/" >Code</a>
                                 </button>
                             </div>
                     
@@ -46,7 +46,7 @@ export default function Portfolio(){
                                     <a href="https://jettaxis.co.uk/" >Check Out</a>
                                 </button>
                                 <button className="p-5 hover:scale-50 duration-100">
-                                    <a href="https://jettaxis.co.uk/" >Code</a>
+                                    <a href="https://www.github.com/Hikmee/" >Code</a>
                                 </button>
                             </div>
                     
@@ -62,7 +62,7 @@ export default function Portfolio(){
                                     <a href="https://fivestar-cars.co.uk/mini-bus-hire/" >Check Out</a>
                                 </button>
                                 <button className="p-5 hover:scale-50 duration-100">
-                                    <a href="https://fivestar-cars.co.uk/mini-bus-hire/" >Code</a>
+                                    <a href="https://www.github.com/Hikmee/" >Code</a>
                                 </button>
                             </div>
                     
