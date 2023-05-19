@@ -53,7 +53,7 @@ const Navbar = () => {
             </div>
         </div>
         {/* Mobile Menu*/}
-        <div className= {`${nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black" : " "}`}>
+        <div className= {`${nav ? "md:hidden  left-0 top-0 w-full h-screen bg-black sticky" : " "}`}>
         <div className={`${nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen p-10 ease-in duration-500 bg-white text-black" : "fixed left-[-100%] top-0 p-15 ease-in duration-500 "} `}>
                 <div className="flex w-full items-center justify-between">
                 <Link href={"/"} >
